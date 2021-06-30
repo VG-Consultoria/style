@@ -1,352 +1,358 @@
 @media print {
     * {
-    color: #000 !important;
-    border-color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    float: none !important;
+        color: #000 !important;
+        border-color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        float: none !important;
     }
 
     body {
-      margin: 20px;
-      padding:0;
-      background-color: #fff;
-      }
-  
-  body p {
-      font-size: 16px;
-      line-height: 1.4rem !important;
-      text-align: justify;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+    }
+
+    body p {
+        font-size: 16px;
+        line-height: 1.4rem !important;
+        text-align: justify;
         text-justify: inter-word;
-      widows: 3;
-      orphans: 3;
-      }
-  
-  .paragraph-3,
-  .paragraph-importante,
-  .paragrafo-texto,
-  .paragrafo-dica,
-  .texto-lembrar,
-  .paragrafo-indicacao,
-  .paragrafo-nome-texto,
-  .texto-destaque {
-      font-size: 16px;
-  }
-      
-  .texto-escuro h1,
-  .texto-claro h1 {
-      font-size: 42px;
-      margin-top: 0px;
-      line-height: 46px;
-      }
-  
-  .texto-escuro h2,
-  .texto-claro h2 {
-      font-size: 37px;
-      line-height: 46px;
-      }
-  
-  .titulo-indicacao-1,
-  .texto-escuro h3,
-  .texto-claro h3 {
-      margin-top: 20px;
-      margin-bottom: 0px;
-      font-size: 30px;
-      line-height: 46px;
-      }
-  
-  .titulo-disciplina {
-      font-size: 40px;
-      }
-  
-  .subtitulo-disciplina {
-      font-size: 34px;
-      }
-  
-  .bold-text-5 {
-      font-size: 22px;
-      }
-   
-  .print,
-  .print-deixar-hide {
-      display: block;
-  }
-  
-  .no-print,
-  .plus-wrap,
-  .plus-1,
-  .navbar,
-  .rodape,
-  .box-titulo-elemento>img,
-  .div-complementar img,
-  .icone-dica.w-col.w-col-3,
-  .oi-cards-wrapper-2.duas-linhas,
-  .w-richtext:before,
-  .w-richtext:after,
-  .menu-button,
-  .menu-button.w-nav-buttom,
-  .menu-button.w--open,
-  .btn-download,
-  .column-icon-video,
-  .footer,
-  .checklist-icon,
-  .icone-importante,
-  .icon-slider-right,
-  .icon-slider-left,
-  .nav_bar.cruzeiro_sul {
-      display: none;
-  }
-  
-  .section-conteudo-claro,
-  .section-conteudo-escuro,
-  .container-conteudo-claro,
-  .container-conteudo-escuro,
-  .texto-destaque,
-  .texto-escuro,
-  .texto-claro,
-  .texto-indicacao-leitura,
-  .lista-icone-item,
-  .lista-itens-content.claro,
-  .lista-itens-content.escuro {
-      padding-top: 0px;
-      padding-bottom: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-  }
-  
-  .lista-itens-content,
-  .lista-itens-content.claro,
-  .lista-itens-content.escuro {
-      margin-left: 0px;
-      padding-right: 0px;
-      padding-left: 0px;
-  }
-  
-  .columns,
-  .column-3,
-  .columns-video,
-  .column-texto-video,
-  .div-texto-lembrar,
-  .div-importante,
-  .container-2,
-  .container-4,
-  .texto-video,
-  .w-col-5,
-  .paragrafo-dica,
-  .paragraph-importante,
-  .lista-icone-item,
-  .icone-dica,
-  .texto-claro p,
-  .texto-escuro p,
-  .texto-dica,
-  .texto-imagem,
-  .texto-importante,
-  .lightbox-link,
-  .section-home,
-  .section-video,
-  .section-leitura,
-  .section-introducao,
-  .section-conteudo-claro,
-  .section-conteudo-escuro,
-  .container-conteudo-claro,
-  .container-conteudo-escuro {
-      display: block;
-      height: auto;
-      width: 100%;
-      background: none;
-  }
-      
-  .div-texto-destaque,
-  .div-lembrar,
-  .w-container .w-row,
-  .w-container,
-  .w-row {
-      margin-left: 0px;
-         margin-right: 0px;
-  }
-  
-  .link-block-2 {
-      width: 10px;
-      height: 20px;
-  }
-  
-  .conteudo-botao {
-      padding: 0 10px;
-      margin: 10px 0;
-  }
-  
-  .titulo-disciplina {
-      padding-left: 30px;
-  }
-  
-  .columns-video,
-  .columns-2 {
-      min-height: auto;
-      margin: 20px 0px;
-  }
-  
-  .w-col {
-      position: static;
-      padding-left: 0px;
-      padding-right: 0px;
-  }
-  
-  .w-col-2,
-  .w-col-3,
-  .w-col-4,
-  .w-col-5,
-  .w-col-6,
-  .w-col-7,
-  .w-col-8,
-  .w-col-9 {
-      width: 100%;
-      }
-  
-  .div-block-7 {
-      background-color: #000;
-  }
-  
-  .div-block-6 {
-      padding: 20px 0px;
-      }
-  
-  .box-texto {
-      min-height: auto;
-  }
-  
-  .lista-icone-item {
-      min-height: 30px
-  }
-  
-  .autor {
-      margin-top: 0;
-      color: #000 !important;
-  }
-  
-  .div-texto-lembrar {
-      min-height: auto;
-      margin: 0;
-  }
-  
-  
-  /*------ Quebra de página ------*/
-  
-  p,
-  h1,
-  h2,
-  h3,
-  .conteudo-botao,
-  .div-lembrar,
-  .lista-texto-p,
-  .lista-texto-item,
-  .flip-card-print,
-  .acordeon-print,
-  .nome-livro,
-  .div-destaque,
-  .acordeon-box,
-  .acordeoni-item,
-  .div-destaque,
-  .elemento-wrapper,
-  .tabela {
-      page-break-inside: avoid;
-  }
-  
-  /*------ Elementos Interativos ------*/ 
-  
-  .acordeon-box.fundo-escuro.no-print {
-      display: none;
-  }
-  
-  .nome-livro,
-  .acordeon-box {
-      background-color: #fff;
-  }
-     
-  .icone-dica {
-      min-height: 0px;
-      padding-bottom: 20px;
-  }
-  
-  .acordeon-conteudo {
-      padding-right: 40px;
-      padding-left: 40px;
-  }
-  
-  .div-lembrar,
-  .div-destaque {
+        widows: 3;
+        orphans: 3;
+    }
+
+    .paragraph-3,
+    .paragraph-importante,
+    .paragrafo-texto,
+    .paragrafo-dica,
+    .texto-lembrar,
+    .paragrafo-indicacao,
+    .paragrafo-nome-texto,
+    .texto-destaque {
+        font-size: 16px;
+    }
+
+    .texto-escuro h1,
+    .texto-claro h1 {
+        font-size: 42px;
+        margin-top: 0px;
+        line-height: 46px;
+    }
+
+    .texto-escuro h2,
+    .texto-claro h2 {
+        font-size: 37px;
+        line-height: 46px;
+    }
+
+    .titulo-indicacao-1,
+    .texto-escuro h3,
+    .texto-claro h3 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .titulo-disciplina {
+        font-size: 40px;
+    }
+
+    .subtitulo-disciplina {
+        font-size: 34px;
+    }
+
+    .bold-text-5 {
+        font-size: 22px;
+    }
+
+    .print,
+    .print-deixar-hide {
+        display: block;
+    }
+
+    .no-print,
+    .plus-wrap,
+    .plus-1,
+    .navbar,
+    .rodape,
+    .box-titulo-elemento>img,
+    .div-complementar img,
+    .div-post-it img,
+    .icone-dica.w-col.w-col-3,
+    .oi-cards-wrapper-2.duas-linhas,
+    .w-richtext:before,
+    .w-richtext:after,
+    .menu-button,
+    .menu-button.w-nav-buttom,
+    .menu-button.w--open,
+    .btn-download,
+    .column-icon-video,
+    .footer,
+    .checklist-icon,
+    .icone-importante,
+    .icon-slider-right,
+    .icon-slider-left,
+    .nav_bar.cruzeiro_sul {
+        display: none;
+    }
+
+    .section-conteudo-claro,
+    .section-conteudo-escuro,
+    .container-conteudo-claro,
+    .container-conteudo-escuro,
+    .texto-destaque,
+    .texto-escuro,
+    .texto-claro,
+    .texto-indicacao-leitura,
+    .lista-icone-item,
+    .lista-itens-content.claro,
+    .lista-itens-content.escuro {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .lista-itens-content,
+    .lista-itens-content.claro,
+    .lista-itens-content.escuro {
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .conteudo-imprimir,
+    .columns,
+    .column-3,
+    .columns-video,
+    .column-texto-video,
+    .div-texto-lembrar,
+    .div-importante,
+    .container-2,
+    .container-4,
+    .texto-video,
+    .w-col-5,
+    .paragrafo-dica,
+    .paragraph-importante,
+    .lista-icone-item,
+    .icone-dica,
+    .texto-claro p,
+    .texto-escuro p,
+    .texto-dica,
+    .texto-imagem,
+    .texto-importante,
+    .lightbox-link,
+    .section-home,
+    .section-video,
+    .section-leitura,
+    .section-introducao,
+    .section-conteudo-claro,
+    .section-conteudo-escuro,
+    .container-conteudo-claro,
+    .container-conteudo-escuro {
+        display: block;
         height: auto;
-      margin: 20px 0px;
-  }
-  
-  .div-texto-destaque {
-      background: none;
-      margin-top: 0px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
-  
-  .section-introducao {
-      padding-top: 0px;
-          padding-bottom: 20px;
-  }
-  
-  .texto-imagem {
-      min-height: auto;
-      margin-right: 0;
-      margin-left: 0;
-  }
-  
-  .box-1.box-imagem {
-      height: auto;
-      width: 100%;
-         min-height: 400px;
-      max-width: 100%;
-  }
-  
-  .paragrafo-indicacao {
-      margin-top: 10px;
-      margin-bottom: 15px;
-  }
-  
-  .indicacao-leitura {
-      padding-top: 5px;
-      padding-bottom: 10px;
-  }
-  
-  img,
-  .print img,
-  .print-deixar-hide img {
-  -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
- 
-      }
-  
-  .lista-texto-p::before {
-      content:"○ ";
-  }
-  
-  h1.tag-dica::before {
-      content:"• ";
-  }
-  
-  h1.tag-importante::before {
-      content:"⁃ ";
-  }
-  
-  h1.tag-video::before {
-      content:"‣ ";
-  }
-  
-  /*------ Estilização da Página (A4) ------*/
-  
-  @page{
-    margin: 1cm 2cm;
-  }
-  
-  @page :first {
-      margin-top: 1cm;
-  }
+        width: 100%;
+        background: none;
+    }
+
+    .div-texto-destaque,
+    .div-lembrar,
+    .w-container .w-row,
+    .w-container,
+    .w-row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .link-block-2 {
+        width: 10px;
+        height: 20px;
+    }
+
+    .conteudo-botao {
+        padding: 0 10px;
+        margin: 10px 0;
+    }
+
+    .titulo-disciplina {
+        padding-left: 30px;
+    }
+
+    .columns-video,
+    .columns-2 {
+        min-height: auto;
+        margin: 20px 0px;
+    }
+
+    .w-col {
+        position: static;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .w-col-2,
+    .w-col-3,
+    .w-col-4,
+    .w-col-5,
+    .w-col-6,
+    .w-col-7,
+    .w-col-8,
+    .w-col-9 {
+        width: 100%;
+    }
+
+    .div-block-7 {
+        background-color: #000;
+    }
+
+    .div-block-6 {
+        padding: 20px 0px;
+    }
+
+    .box-texto {
+        min-height: auto;
+    }
+
+    .lista-icone-item {
+        min-height: 30px
+    }
+
+    .autor {
+        margin-top: 0;
+        color: #000 !important;
+    }
+
+    .div-texto-lembrar {
+        min-height: auto;
+        margin: 0;
+    }
+
+
+    /*------ Quebra de página ------*/
+
+    p,
+    h1,
+    h2,
+    h3,
+    .conteudo-botao,
+    .div-lembrar,
+    .lista-texto-p,
+    .lista-texto-item,
+    .flip-card-print,
+    .acordeon-print,
+    .nome-livro,
+    .div-destaque,
+    .acordeon-box,
+    .acordeoni-item,
+    .div-destaque,
+    .elemento-wrapper,
+    .tabela {
+        page-break-inside: avoid;
+    }
+
+    /*------ Elementos Interativos ------*/
+
+    .section-destaque {
+        background-image: none;
+    }
+
+    .acordeon-box.fundo-escuro.no-print {
+        display: none;
+    }
+
+    .nome-livro,
+    .acordeon-box {
+        background-color: #fff;
+    }
+
+    .icone-dica {
+        min-height: 0px;
+        padding-bottom: 20px;
+    }
+
+    .acordeon-conteudo {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .div-lembrar,
+    .div-destaque {
+        height: auto;
+        margin: 20px 0px;
+    }
+
+    .div-texto-destaque {
+        background: none;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .section-introducao {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .texto-imagem {
+        min-height: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .box-1.box-imagem {
+        height: auto;
+        width: 100%;
+        min-height: 400px;
+        max-width: 100%;
+    }
+
+    .paragrafo-indicacao {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .indicacao-leitura {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    img,
+    .print img,
+    .print-deixar-hide img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .lista-texto-p::before {
+        content: "○ ";
+    }
+
+    h1.tag-dica::before {
+        content: "• ";
+    }
+
+    h1.tag-importante::before {
+        content: "⁃ ";
+    }
+
+    h1.tag-video::before {
+        content: "‣ ";
+    }
+
+    /*------ Estilização da Página (A4) ------*/
+
+    @page {
+        margin: 1cm 2cm;
+    }
+
+    @page :first {
+        margin-top: 1cm;
+    }
 }
