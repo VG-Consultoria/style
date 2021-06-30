@@ -1,6 +1,7 @@
 # CSS Style
 ```
 // load any GitHub release, commit, or branch
+cssstyle//
 
 // note: we recommend using npm for projects that support it
 
